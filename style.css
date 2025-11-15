@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f0ff; /* light blue background (SOLDIER-style) */
+  color: #000;
+}
+
+header {
+  background-color: #214c8c; /* dark blue */
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 16px;
+}
+
+#chapter-list {
+  margin-bottom: 24px;
+}
+
+.chapter-item {
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.chapter-item:hover {
+  background-color: #ddeeff;
+}
+
+#player-container {
+  display: none;
+}
+
+.show-player #player-container {
+  display: block;
+}
+
